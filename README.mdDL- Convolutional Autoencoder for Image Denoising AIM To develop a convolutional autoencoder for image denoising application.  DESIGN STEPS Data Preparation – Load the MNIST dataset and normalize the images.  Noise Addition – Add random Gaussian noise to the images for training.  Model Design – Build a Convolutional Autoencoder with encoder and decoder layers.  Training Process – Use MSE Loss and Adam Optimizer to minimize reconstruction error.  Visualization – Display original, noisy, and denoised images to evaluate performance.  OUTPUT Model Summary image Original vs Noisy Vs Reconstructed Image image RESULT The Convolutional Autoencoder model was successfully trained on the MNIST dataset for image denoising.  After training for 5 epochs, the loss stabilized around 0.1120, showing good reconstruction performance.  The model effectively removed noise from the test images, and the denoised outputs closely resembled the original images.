@@ -1,0 +1,24 @@
+## DL- Convolutional Autoencoder for Image Denoising
+## AIM
+To develop a convolutional autoencoder for image denoising application.
+
+## DESIGN STEPS
+Data Preparation – Load the MNIST dataset and normalize the images.
+
+Noise Addition – Add random Gaussian noise to the images for training.
+
+Model Design – Build a Convolutional Autoencoder with encoder and decoder layers.
+
+Training Process – Use MSE Loss and Adam Optimizer to minimize reconstruction error.
+
+Visualization – Display original, noisy, and denoised images to evaluate performance.
+
+## OUTPUT
+ ## Model Summary
+   
+## RESULT
+The Convolutional Autoencoder model was successfully trained on the MNIST dataset for image denoising.
+
+After training for 5 epochs, the loss stabilized around 0.1120, showing good reconstruction performance.
+
+The model effectively removed noise from the test images, and the denoised outputs closely resembled the original images.
